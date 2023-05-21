@@ -21,7 +21,7 @@ const Search = () => {
       // add this option that makes response data to be stored as a file,
       // this is much more performant.
       fileCache: true,
-      appendExt: 'png',
+      appendExt: 'mp4',
       addAndroidDownloads: {
         useDownloadManager: true,
         notification: true,
@@ -29,7 +29,7 @@ const Search = () => {
           fileDr +
           '/download_' +
           Math.floor(date.getDate() + date.getSeconds() / 2) +
-          '.jpg',
+          '.mp4',
         description: 'file downloaded',
       },
     })
